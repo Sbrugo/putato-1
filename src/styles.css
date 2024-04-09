@@ -201,3 +201,46 @@ a {
     font-size: 20rem;
   }
 }
+@media (max-width: 40em) {
+  html {
+    font-size: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer h2 {
+    font-size: 12rem;
+  }
+  footer,
+  .landing,
+  header {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .image,
+  .contacto {
+    width: 90vw;
+  }
+  form {
+    width: 70%;
+  }
+  a {
+    font-size: 3rem;
+  }
+  .redes_sociales {
+    border: none;
+  }
+  header nav,
+  header .icons,
+  .landing h2 {
+    display: none;
+  }
+  header h3 {
+    font-size: 4rem;
+  }
+  label,
+  input,
+  button {
+    font-size: 2rem;
+  }
+}
